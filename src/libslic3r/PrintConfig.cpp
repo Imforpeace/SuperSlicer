@@ -5244,7 +5244,7 @@ void PrintConfigDef::init_fff_params()
     def->set_default_value(new ConfigOptionFloatOrPercent(100, true));
 
     def = this->add("wipe_tower_speed", coFloat);
-    def->label = L("Speed");
+    def->label = L("Wipe Tower Speed");
     def->tooltip = L("Printing speed of the wipe tower. Capped by filament_max_volumetric_speed (if set).");
     def->sidetext = L("mm/s");
     def->mode = comAdvancedE | comPrusa;
